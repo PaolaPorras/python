@@ -15,10 +15,10 @@ def generar_contrasena():
     contrasena = []
 
     for i in range(15):
-        caracter_random = random.choice(caracteres)
+        caracter_random = random.choice(caracteres) #escoger un caracter cualquiera de mi lista
         contrasena.append(caracter_random)
 
-    contrasena = "".join(contrasena)
+    contrasena = "".join(contrasena) #almacena los caracteres en una sola lista, como string
     return contrasena
 
 
